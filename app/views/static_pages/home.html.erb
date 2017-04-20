@@ -1,6 +1,8 @@
 <% provide :title, t(".title") %>
-<h1><%= t".description"%></h1>
+<h1><%= t ".description"%></h1>
 <p>
   <%= raw t".homecontent", org: link_to(t(".org"),
-    t(".orglink")) %>
+    "http://www.railstutorial.org/") %>
+   <br/>
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
 </p>

@@ -1,10 +1,10 @@
 <% provide :title, t(".title") %>
-<h1><%= t".description" %></h1>
-<p>  
+<h1><%= t ".description" %></h1>
+<p>
   <%= raw t".aboutcontent",
-    rails: link_to(t(".rails"), t(".railslink")),
-    railsbook: link_to(t(".railsbook"), t(".railsbooklink")),
+    rails: link_to(t(".rails"), "http://www.railstutorial.org"),
+    railsbook: link_to(t(".railsbook"), "http://www.railstutorial.org/book"),
     screencastsrails: link_to(t(".screencastsrails"),
-    	t(".screencastsrailslink")),
-    rubyonrails: link_to(t(".rubyonrails"), t(".rubyonrailslink")) %>
+    "http://screencasts.railstutorial.org/"),
+    rubyonrails: link_to(t(".rubyonrails"), "http://rubyonrails.org") %>
 </p>

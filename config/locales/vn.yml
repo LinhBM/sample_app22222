@@ -30,36 +30,28 @@ vn:
       title: "trang chu"
       description: "xem ung dung"
       homecontent: "day la trang chu %{org} voi mot vai vi du."
-      org: "huong dan su dung ruby on rails"
-      orglink: "http://www.railstutorial.org/"
+      org: "huong dan su dung ruby on rails"      
     
     help:
       title: "tro giup"
       description: "giup hieu hon ve san pham"
       helpcontent: "voi su tro giup %{help} tren ngon ngu ruby de hieu hon ve ngon ngu ruby,
        hay xem %{book}"
-      help: "cua rails"
-      helplink: "http://www.railstutorial.org/help"
-      book: "huong dan su dung"
-      booklink: "http://www.railstutorial.org/book"
+      help: "cua rails"      
+      book: "huong dan su dung"      
 
     about:
       title: "Gioi thieu"
       description: "Thong tin chi tiet"
       aboutcontent: "%{rails} la mot %{railsbook}. va %{screencastsrails}
        de day thiet ke web %{rubyonrails}. Day la mot vai vi du."
-      rails: "Ngon ngu rails"
-      railslink: "http://www.railstutorial.org"
-      railsbook: "chu de ve rails"
-      railsbooklink: "http://www.railstutorial.org/book"      
-      screencastsrails: "phan chieu tren rails"
-      screencastsrailslink: "http://screencasts.railstutorial.org/"
-      rubyonrails: "voi ngon ngu ruby on rails"
-      rubyonrailslink: "http://rubyonrails.org"
+      rails: "Ngon ngu rails"      
+      railsbook: "chu de ve rails"      
+      screencastsrails: "phan chieu tren rails"      
+      rubyonrails: "voi ngon ngu ruby on rails"      
         
     contact:
       title: "Lien he"
       description: "Lien he chi tiet"
       contactcontent: "Lien he de duoc huong dan su dung ngon ngu ruby them %{tut}."
-      contact: "trang lien he"
-      contactlink: "http://www.railstutorial.org/contact"
+      contact: "trang lien he"      
