@@ -46,8 +46,9 @@ en:
     about:
       title: "About"
       description: "About"
-      aboutcontent: "The %{rails} is a %{railsbook}. And %{screencastsrails}
-       to teach web development with %{rubyonrails}. This is the sample application for the tutorial."
+      aboutcontent: "The %{rails} is a %{railsbook}
+        . And %{screencastsrails} to teach web development with %{rubyonrails}
+        . This is the sample application for the tutorial."
       rails: "Ruby on Rails Tutorial"
       railslink: "http://www.railstutorial.org"
       railsbook: "book"
@@ -60,6 +61,13 @@ en:
     contact:
       title: "Contact"
       description: "Contact"
-      contactcontent: "Contact the Ruby on Rails Tutorial about the sample app at the %{tut}."
+      contactcontent: "Contact the Ruby on Rails Tutorial about the sample
+        app at the %{tut}."
       contact: "contact page"
       contactlink: "http://www.railstutorial.org/contact"
+
+  users:
+    new:
+      title: "New"
+      description: "Newspaper"
+      newcontent: "Find me in app/views/users/new.html.erb"

@@ -36,8 +36,9 @@ vn:
     help:
       title: "tro giup"
       description: "giup hieu hon ve san pham"
-      helpcontent: "voi su tro giup %{help} tren ngon ngu ruby de hieu hon ve ngon ngu ruby,
-       hay xem %{book}"
+      helpcontent: "voi su tro giup %{help} tren ngon ngu ruby de
+        hieu hon ve ngon ngu ruby,
+        hay xem %{book}"
       help: "cua rails"
       helplink: "http://www.railstutorial.org/help"
       book: "huong dan su dung"
@@ -47,11 +48,11 @@ vn:
       title: "Gioi thieu"
       description: "Thong tin chi tiet"
       aboutcontent: "%{rails} la mot %{railsbook}. va %{screencastsrails}
-       de day thiet ke web %{rubyonrails}. Day la mot vai vi du."
+        de day thiet ke web %{rubyonrails}. Day la mot vai vi du."
       rails: "Ngon ngu rails"
       railslink: "http://www.railstutorial.org"
       railsbook: "chu de ve rails"
-      railsbooklink: "http://www.railstutorial.org/book"      
+      railsbooklink: "http://www.railstutorial.org/book"
       screencastsrails: "phan chieu tren rails"
       screencastsrailslink: "http://screencasts.railstutorial.org/"
       rubyonrails: "voi ngon ngu ruby on rails"
@@ -60,6 +61,13 @@ vn:
     contact:
       title: "Lien he"
       description: "Lien he chi tiet"
-      contactcontent: "Lien he de duoc huong dan su dung ngon ngu ruby them %{tut}."
+      contactcontent: "Lien he de duoc huong dan su dung ngon ngu
+        ruby them %{tut}."
       contact: "trang lien he"
       contactlink: "http://www.railstutorial.org/contact"
+
+  users:
+    new:
+      title: "Tin moi"
+      description: "Thong tin moi"
+      newcontent: "duong dan tai app/views/users/new.html.erb"
